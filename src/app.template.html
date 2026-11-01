@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>School Influencer Discovery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f7f6f2;--card:#fff;--tx:#1d1d1b;--mut:#6b6a63;--ac:#0f6e56;--acbg:#e1f5ee;--bd:#e3e1d9}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1a18;--card:#242422;--tx:#eceae2;--mut:#a3a199;--ac:#5dcaa5;--acbg:#0f3b2e;--bd:#3a3a36}}
+*,*:before,*:after{box-sizing:inherit}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:980px;margin:0 auto;padding:20px 16px 40px}h1{font-size:22px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 14px}
+.warn{background:var(--acbg);border:1px solid var(--bd);border-radius:10px;padding:10px 12px;font-size:13px;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:12px}
+label{font-size:12px;color:var(--mut);display:block;margin:8px 0 4px}select,textarea{width:100%;font:inherit;color:var(--tx);background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:8px}
+textarea{min-height:120px;resize:vertical}button{margin-top:10px;background:var(--ac);color:var(--bg);border:0;border-radius:8px;padding:9px 18px;font:inherit;font-weight:600;cursor:pointer}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-bottom:12px}.st{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px;font-size:13px}
+.st b{display:block;color:var(--ac);font-size:12px;margin-bottom:2px}.chip{display:inline-block;background:var(--acbg);color:var(--ac);border-radius:99px;padding:1px 9px;font-size:12px;margin:2px 4px 2px 0}
+.r{display:grid;grid-template-columns:42px 1fr;gap:10px}.rk{font-weight:700;color:var(--mut);font-size:18px}.nm{font-weight:650}.nm a{color:var(--ac)}.mt{color:var(--mut);font-size:13px}
+.bar{height:6px;border-radius:3px;background:var(--bd);margin:6px 0}.bar i{display:block;height:100%;border-radius:3px;background:var(--ac)}.why{font-size:13px;margin-top:4px}
+</style></head><body><main>
+<h1>🏫 School Influencer Discovery</h1><p class="sub">Reference profile → AI analysis → similar-profile discovery → ranking → explained results</p>
+<div class="warn"><b>Test dataset:</b> 75 clearly-labelled <b>synthetic</b> profiles (fictional people, placeholder URLs). No LinkedIn data was scraped and no access controls were bypassed. See the technical note for the compliant production path.</div>
+<div class="card"><label for="sel">Reference profile</label><select id="sel"></select>
+<label for="txt">Reference text (editable: paste any profile’s headline, summary and experience)</label><textarea id="txt"></textarea>
+<button id="go">Discover similar profiles</button></div>
+<div class="steps" id="steps"></div><div id="out"></div></main>
+<script>
+const D=__DATA__;
+const STOP=new Set("a an and the of in at for to with on by as is are was were be from or that this their his her its it into across over more than who which have has had also".split(" "));
+const SYN={headmaster:"principal",headmistress:"principal",headteacher:"principal",adviser:"advisor",chairman:"trustee",chairperson:"trustee",promoter:"owner",founder:"owner",cofounder:"owner",entrepreneur:"owner",mentor:"advisor",coach:"advisor",consulting:"consultant",consultancy:"consultant",schools:"school",trustees:"trustee",principals:"principal",directors:"director",owners:"owner",founded:"owner"};
+const R={k12:/\bk-?12\b|\bcbse\b|\bicse\b|\bigcse\b|\bschools?\b|\bprincipals?\b|headmaster/,adv:/consultant|consulting|consultancy|advis[eo]r|advisory|mentor|accreditation|audit/,lead:/principal|headmaster|headmistress|school director|head of school|trustee|chairman|owner|founder|founded|promoter/,net:/network|group of schools|chain|cluster|multiple schools|campuses|association/,dec:/decision-makers?|management|trustees?|owners?|promoters?|principals/};
+const W={adv:.30,lead:.25,multi:.30,dec:.15};
+const LBL={adv:"advisory/consulting role",lead:"school leadership background (principal/trustee/owner)",multi:"works across multiple schools",dec:"engages school decision-makers"};
+const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const txt=p=>[p.headline,p.role,p.org,p.summary,...p.experience].join(" ");
+function analyze(t){t=t.toLowerCase().replace(/(business|medical|law|engineering) school|school of \w+/g,"");
+ const f={};for(const k in R)f[k]=R[k].test(t);
+ const n=Math.max(0,...[...t.matchAll(/(\d+)\+?\s+schools/g)].map(m=>+m[1]));f.multi=n>=3||R.net.test(t);f.n=n;
+ const tok=(t.match(/[a-z0-9\-]+/g)||[]).filter(w=>!STOP.has(w)).map(w=>SYN[w]||w);
+ ["k12","adv","lead","multi","dec"].forEach(k=>f[k]&&tok.push("cpt_"+k));return{tok,f}}
+function rank(refText,cands){
+ const docs=[analyze(refText),...cands.map(p=>analyze(txt(p)))],N=docs.length,df={};
+ docs.forEach(d=>new Set(d.tok).forEach(w=>df[w]=(df[w]||0)+1));
+ const vec=d=>{const c={};d.tok.forEach(w=>c[w]=(c[w]||0)+1);const v={};for(const w in c)v[w]=(1+Math.log(c[w]))*(Math.log((1+N)/(1+df[w]))+1);return v};
+ const V=docs.map(vec),nrm=a=>Math.sqrt(Object.values(a).reduce((s,x)=>s+x*x,0)),cos=(a,b)=>{let s=0;for(const w in a)s+=a[w]*(b[w]||0);return s/(nrm(a)*nrm(b)+1e-9)};
+ const sims=V.slice(1).map(v=>cos(V[0],v)),mx=Math.max(...sims)||1;
+ return cands.map((p,i)=>{const f=docs[i+1].f,v=V[i+1];let sig=0;for(const k in W)if(f[k])sig+=W[k];
+  const sc=(f.k12?1:.25)*(.5*sims[i]/mx+.5*sig);
+  const shared=Object.keys(v).filter(w=>V[0][w]&&!w.startsWith("cpt_")).sort((a,b)=>v[b]*V[0][b]-v[a]*V[0][a]).slice(0,4);
+  let why=Object.keys(W).filter(k=>f[k]).map(k=>LBL[k]);if(f.n)why.push("~"+f.n+" schools mentioned");
+  if(!f.k12)why=["no school-ecosystem signal (filtered)"];
+  return{p,score:Math.round(100*sc),why,shared,k12:f.k12}}).sort((a,b)=>b.score-a.score)}
+const all=[D.reference,...D.profiles];
+$("sel").innerHTML=all.map(p=>`<option value="${p.id}">${esc(p.name)}${p.id==="REF"?"":" – "+esc(p.role)}</option>`).join("");
+const fill=()=>{$("txt").value=txt(all.find(p=>p.id===$("sel").value))};$("sel").onchange=fill;fill();
+function run(){
+ const id=$("sel").value,rt=$("txt").value,cands=D.profiles.filter(p=>p.id!==id),ra=analyze(rt);
+ const res=rank(rt,cands),top=res.slice(0,25),passed=res.filter(r=>r.k12).length;
+ const p20=top.slice(0,20).filter(r=>r.p.gt).length/20,chips=Object.keys(W).filter(k=>ra.f[k]).map(k=>`<span class="chip">${LBL[k]}</span>`).join("")+(ra.f.n?`<span class="chip">~${ra.f.n} schools</span>`:"");
+ $("steps").innerHTML=`<div class="st"><b>1 · AI analysis</b>Reference signals:<br>${chips||"none detected"}</div>
+ <div class="st"><b>2 · Discovery</b>${cands.length} candidates scanned; ${passed} passed the school-ecosystem gate</div>
+ <div class="st"><b>3 · Ranking</b>50% TF-IDF similarity on concept-normalised text + 50% ecosystem-signal score</div>
+ <div class="st"><b>4 · Results</b>Top ${top.length} shown. Precision@20 vs. test labels: <b>${(p20*100).toFixed(0)}%</b></div>`;
+ $("out").innerHTML=top.map((r,i)=>`<div class="card r"><div class="rk">${i+1}</div><div><div class="nm"><a href="${esc(r.p.url)}" target="_blank" rel="noopener">${esc(r.p.name)}</a> · ${r.score}/100</div>
+ <div class="bar"><i style="width:${r.score}%"></i></div><div class="mt">${esc(r.p.role)} · ${esc(r.p.org)} · ${esc(r.p.location)}</div>
+ <div class="why"><b>Why:</b> ${r.why.map(esc).join("; ")}.${r.shared.length?` <span class="mt">Shared themes: ${r.shared.map(esc).join(", ")}.</span>`:""}</div>
+ <div class="mt">Evidence: ${esc(r.p.experience.join(" · "))}</div></div></div>`).join("")}
+$("go").onclick=run;run();
+</script></body></html>

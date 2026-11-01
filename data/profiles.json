@@ -1,0 +1,1222 @@
+{
+ "note": "SYNTHETIC TEST DATASET - fictional people, not LinkedIn data.",
+ "reference": {
+  "id": "REF",
+  "name": "Test Reference (synthetic)",
+  "url": "https://example.org/synthetic-test-profile/pooja-pillai",
+  "headline": "Education Consultant | Former Principal | Advisor to 30+ schools",
+  "role": "Education Consultant & Former Principal",
+  "org": "Independent",
+  "location": "Bengaluru, India",
+  "summary": "Former principal with 22 years in K-12 school education. Now advises 30+ schools on academic quality, accreditation and school improvement; mentors principals, trustees and school owners across several states.",
+  "experience": [
+   "Principal, CBSE school, 12 years",
+   "Led academic audits for 30 schools",
+   "Board member, school education trust"
+  ],
+  "archetype": "consultant",
+  "gt": 1
+ },
+ "profiles": [
+  {
+   "id": "P000",
+   "name": "Amit Agarwal",
+   "url": "https://example.org/synthetic-test-profile/amit-agarwal",
+   "headline": "School Improvement Advisor | Agarwal Education Advisory",
+   "role": "School Improvement Advisor",
+   "org": "Agarwal Education Advisory",
+   "location": "Delhi NCR, India",
+   "summary": "Helps trustees and promoters set up academic systems, with engagements across 25 schools in CBSE, ICSE and IGCSE boards.",
+   "experience": [
+    "Led academic audits for 25 schools",
+    "Former Vice Principal, CBSE school"
+   ],
+   "archetype": "consultant",
+   "gt": 1
+  },
+  {
+   "id": "P001",
+   "name": "Harish Nair",
+   "url": "https://example.org/synthetic-test-profile/harish-nair",
+   "headline": "Talent Acquisition Lead | TalentBridge",
+   "role": "Talent Acquisition Lead",
+   "org": "TalentBridge",
+   "location": "Hyderabad, India",
+   "summary": "HR partner for manufacturing, handling payroll and policy.",
+   "experience": [
+    "Hired 25 engineers",
+    "Built employer brand"
+   ],
+   "archetype": "recruiter",
+   "gt": 0
+  },
+  {
+   "id": "P002",
+   "name": "Aarav Bhatt",
+   "url": "https://example.org/synthetic-test-profile/aarav-bhatt",
+   "headline": "Digital Marketing Manager | AdWave",
+   "role": "Digital Marketing Manager",
+   "org": "AdWave",
+   "location": "Bengaluru, India",
+   "summary": "Runs paid acquisition and SEO for D2C brands.",
+   "experience": [
+    "Launched brand campaign",
+    "Scaled paid channels"
+   ],
+   "archetype": "marketing",
+   "gt": 0
+  },
+  {
+   "id": "P003",
+   "name": "Rahul Bhatt",
+   "url": "https://example.org/synthetic-test-profile/rahul-bhatt",
+   "headline": "Digital Marketing Manager | AdWave",
+   "role": "Digital Marketing Manager",
+   "org": "AdWave",
+   "location": "Bengaluru, India",
+   "summary": "Performance marketing and brand campaigns for consumer apps. 17 years in digital.",
+   "experience": [
+    "Scaled paid channels",
+    "Launched brand campaign"
+   ],
+   "archetype": "marketing",
+   "gt": 0
+  },
+  {
+   "id": "P004",
+   "name": "Sanjay Mehta",
+   "url": "https://example.org/synthetic-test-profile/sanjay-mehta",
+   "headline": "Regional Manager, School Sales | Praxis Books",
+   "role": "Regional Manager, School Sales",
+   "org": "Praxis Books",
+   "location": "Jaipur, India",
+   "summary": "Builds partnerships with school groups and trustees; 19 years selling to K-12 school leadership.",
+   "experience": [
+    "Key accounts: school groups",
+    "Organised principal roundtables"
+   ],
+   "archetype": "connector",
+   "gt": 1
+  },
+  {
+   "id": "P005",
+   "name": "Suresh Sharma",
+   "url": "https://example.org/synthetic-test-profile/suresh-sharma",
+   "headline": "Independent Academic Advisor | Pragya Learning Partners",
+   "role": "Independent Academic Advisor",
+   "org": "Pragya Learning Partners",
+   "location": "Delhi NCR, India",
+   "summary": "Advisor to school management teams on curriculum, accreditation and school audits. 8 years in school education.",
+   "experience": [
+    "Led academic audits for 20 schools",
+    "Mentored first-time principals and school directors"
+   ],
+   "archetype": "consultant",
+   "gt": 1
+  },
+  {
+   "id": "P006",
+   "name": "Neha Tripathi",
+   "url": "https://example.org/synthetic-test-profile/neha-tripathi",
+   "headline": "Talent Acquisition Lead | PeopleFirst",
+   "role": "Talent Acquisition Lead",
+   "org": "PeopleFirst",
+   "location": "Lucknow, India",
+   "summary": "Hires engineers and managers for IT companies; 27 years in talent acquisition.",
+   "experience": [
+    "Built employer brand",
+    "Hired 8 engineers"
+   ],
+   "archetype": "recruiter",
+   "gt": 0
+  },
+  {
+   "id": "P007",
+   "name": "Aarav Tripathi",
+   "url": "https://example.org/synthetic-test-profile/aarav-tripathi",
+   "headline": "Founder & Chairman | Tripathi Group of Schools",
+   "role": "Founder & Chairman",
+   "org": "Tripathi Group of Schools",
+   "location": "Bengaluru, India",
+   "summary": "Founded a group of 6 schools across tier-2 cities. Works closely with trustees, principals and other school owners.",
+   "experience": [
+    "Raised funding to expand school network",
+    "Founded 6 schools"
+   ],
+   "archetype": "entrepreneur",
+   "gt": 1
+  },
+  {
+   "id": "P008",
+   "name": "Neha Singh",
+   "url": "https://example.org/synthetic-test-profile/neha-singh",
+   "headline": "Head of Academics, School Group | Vidya Group of Schools",
+   "role": "Head of Academics, School Group",
+   "org": "Vidya Group of Schools",
+   "location": "Hyderabad, India",
+   "summary": "Oversees a network of 30 schools, coordinating principals, academics and operations across regions.",
+   "experience": [
+    "Reported to group trustees",
+    "Principal development programme lead"
+   ],
+   "archetype": "network",
+   "gt": 1
+  },
+  {
+   "id": "P009",
+   "name": "Ritu Mehta",
+   "url": "https://example.org/synthetic-test-profile/ritu-mehta",
+   "headline": "Founder & Chairman | Mehta Education Trust",
+   "role": "Founder & Chairman",
+   "org": "Mehta Education Trust",
+   "location": "Hyderabad, India",
+   "summary": "Founded a group of 25 schools across tier-2 cities. Works closely with trustees, principals and other school owners.",
+   "experience": [
+    "Raised funding to expand school network",
+    "Chair, association of private school owners"
+   ],
+   "archetype": "entrepreneur",
+   "gt": 1
+  },
+  {
+   "id": "P010",
+   "name": "Arjun Iyer",
+   "url": "https://example.org/synthetic-test-profile/arjun-iyer",
+   "headline": "Independent Academic Advisor | Shikshak Consulting",
+   "role": "Independent Academic Advisor",
+   "org": "Shikshak Consulting",
+   "location": "Chennai, India",
+   "summary": "Works with 30+ K-12 schools on academic quality, teacher training and affiliation readiness. Trusted by school owners and principals across states.",
+   "experience": [
+    "Former Vice Principal, CBSE school",
+    "Mentored first-time principals and school directors"
+   ],
+   "archetype": "consultant",
+   "gt": 1
+  },
+  {
+   "id": "P011",
+   "name": "Karan Mishra",
+   "url": "https://example.org/synthetic-test-profile/karan-mishra",
+   "headline": "Cluster Head, Schools | Vidya Group of Schools",
+   "role": "Cluster Head, Schools",
+   "org": "Vidya Group of Schools",
+   "location": "Pune, India",
+   "summary": "Oversees a network of 25 schools, coordinating principals, academics and operations across regions.",
+   "experience": [
+    "Reported to group trustees",
+    "Managed 25 school campuses"
+   ],
+   "archetype": "network",
+   "gt": 1
+  },
+  {
+   "id": "P012",
+   "name": "Meera Pillai",
+   "url": "https://example.org/synthetic-test-profile/meera-pillai",
+   "headline": "Mathematics Teacher | Government school",
+   "role": "Mathematics Teacher",
+   "org": "Government school",
+   "location": "Chennai, India",
+   "summary": "9 years teaching English to primary school students.",
+   "experience": [
+    "Class teacher",
+    "Organised school annual day"
+   ],
+   "archetype": "teacher",
+   "gt": 0
+  },
+  {
+   "id": "P013",
+   "name": "Nitin Iyer",
+   "url": "https://example.org/synthetic-test-profile/nitin-iyer",
+   "headline": "Regional Director, School Network | Gyan Education Group",
+   "role": "Regional Director, School Network",
+   "org": "Gyan Education Group",
+   "location": "Mumbai, India",
+   "summary": "17 years managing multi-campus school operations and principal development.",
+   "experience": [
+    "Managed 15 school campuses",
+    "Principal development programme lead"
+   ],
+   "archetype": "network",
+   "gt": 1
+  },
+  {
+   "id": "P014",
+   "name": "Vikram Reddy",
+   "url": "https://example.org/synthetic-test-profile/vikram-reddy",
+   "headline": "Mathematics Teacher | City Public School",
+   "role": "Mathematics Teacher",
+   "org": "City Public School",
+   "location": "Jaipur, India",
+   "summary": "10 years teaching English to primary school students.",
+   "experience": [
+    "Class teacher",
+    "Organised school annual day"
+   ],
+   "archetype": "teacher",
+   "gt": 0
+  },
+  {
+   "id": "P015",
+   "name": "Anjali Pillai",
+   "url": "https://example.org/synthetic-test-profile/anjali-pillai",
+   "headline": "Ex-Head of School | Pillai Education Society",
+   "role": "Ex-Head of School",
+   "org": "Pillai Education Society",
+   "location": "Chennai, India",
+   "summary": "Served 18 years as principal of leading CBSE schools; now sits on school boards and advises management on leadership hiring.",
+   "experience": [
+    "Principal, CBSE school, 18 years",
+    "Guest speaker at principals conferences"
+   ],
+   "archetype": "ex_leader",
+   "gt": 1
+  },
+  {
+   "id": "P016",
+   "name": "Sanjay Menon",
+   "url": "https://example.org/synthetic-test-profile/sanjay-menon",
+   "headline": "Operations Manager | FreshBasket",
+   "role": "Operations Manager",
+   "org": "FreshBasket",
+   "location": "Pune, India",
+   "summary": "16 years in FMCG distribution and retail operations.",
+   "experience": [
+    "Reduced shrinkage by 12%",
+    "Opened 15 new stores"
+   ],
+   "archetype": "retail",
+   "gt": 0
+  },
+  {
+   "id": "P017",
+   "name": "Smita Kapoor",
+   "url": "https://example.org/synthetic-test-profile/smita-kapoor",
+   "headline": "Professor, Business School | Kapoor Business School",
+   "role": "Professor, Business School",
+   "org": "Kapoor Business School",
+   "location": "Lucknow, India",
+   "summary": "Teaches finance and strategy at a business school; research on capital markets.",
+   "experience": [
+    "Published 20 papers",
+    "PhD supervisor"
+   ],
+   "archetype": "professor",
+   "gt": 0
+  },
+  {
+   "id": "P018",
+   "name": "Naveen Malhotra",
+   "url": "https://example.org/synthetic-test-profile/naveen-malhotra",
+   "headline": "Mathematics Teacher | City Public School",
+   "role": "Mathematics Teacher",
+   "org": "City Public School",
+   "location": "Mumbai, India",
+   "summary": "22 years teaching English to primary school students.",
+   "experience": [
+    "Organised school annual day",
+    "Class teacher"
+   ],
+   "archetype": "teacher",
+   "gt": 0
+  },
+  {
+   "id": "P019",
+   "name": "Sanjay Saxena",
+   "url": "https://example.org/synthetic-test-profile/sanjay-saxena",
+   "headline": "School Improvement Advisor | Shikshak Consulting",
+   "role": "School Improvement Advisor",
+   "org": "Shikshak Consulting",
+   "location": "Hyderabad, India",
+   "summary": "Advisor to school management teams on curriculum, accreditation and school audits. 17 years in school education.",
+   "experience": [
+    "Former Vice Principal, CBSE school",
+    "Led academic audits for 25 schools"
+   ],
+   "archetype": "consultant",
+   "gt": 1
+  },
+  {
+   "id": "P020",
+   "name": "Nitin Gupta",
+   "url": "https://example.org/synthetic-test-profile/nitin-gupta",
+   "headline": "Managing Trustee | Gupta Education Trust",
+   "role": "Managing Trustee",
+   "org": "Gupta Education Trust",
+   "location": "Hyderabad, India",
+   "summary": "Education entrepreneur; launched and scaled 12 K-12 schools and an association of independent school owners.",
+   "experience": [
+    "Raised funding to expand school network",
+    "Chair, association of private school owners"
+   ],
+   "archetype": "entrepreneur",
+   "gt": 1
+  },
+  {
+   "id": "P021",
+   "name": "Imran Banerjee",
+   "url": "https://example.org/synthetic-test-profile/imran-banerjee",
+   "headline": "Professor, Business School | National Law School",
+   "role": "Professor, Business School",
+   "org": "National Law School",
+   "location": "Lucknow, India",
+   "summary": "Academic in law school focused on constitutional research and publications.",
+   "experience": [
+    "PhD supervisor",
+    "Published 15 papers"
+   ],
+   "archetype": "professor",
+   "gt": 0
+  },
+  {
+   "id": "P022",
+   "name": "Ritu Das",
+   "url": "https://example.org/synthetic-test-profile/ritu-das",
+   "headline": "Education Partnerships Lead | Gurukul Tech",
+   "role": "Education Partnerships Lead",
+   "org": "Gurukul Tech",
+   "location": "Mumbai, India",
+   "summary": "Works with principals, owners and management of 6+ schools on curriculum and technology adoption; strong relationships with school decision-makers.",
+   "experience": [
+    "Key accounts: school groups",
+    "Organised principal roundtables"
+   ],
+   "archetype": "connector",
+   "gt": 1
+  },
+  {
+   "id": "P023",
+   "name": "Kavita Joshi",
+   "url": "https://example.org/synthetic-test-profile/kavita-joshi",
+   "headline": "Research Scholar, Engineering | National Law School",
+   "role": "Research Scholar, Engineering",
+   "org": "National Law School",
+   "location": "Hyderabad, India",
+   "summary": "Academic in law school focused on constitutional research and publications.",
+   "experience": [
+    "PhD supervisor",
+    "Published 6 papers"
+   ],
+   "archetype": "professor",
+   "gt": 0
+  },
+  {
+   "id": "P024",
+   "name": "Vikram Tripathi",
+   "url": "https://example.org/synthetic-test-profile/vikram-tripathi",
+   "headline": "Regional Sales Head | StyleHub",
+   "role": "Regional Sales Head",
+   "org": "StyleHub",
+   "location": "Mumbai, India",
+   "summary": "21 years in FMCG distribution and retail operations.",
+   "experience": [
+    "Opened 6 new stores",
+    "Reduced shrinkage by 12%"
+   ],
+   "archetype": "retail",
+   "gt": 0
+  },
+  {
+   "id": "P025",
+   "name": "Naveen Joshi",
+   "url": "https://example.org/synthetic-test-profile/naveen-joshi",
+   "headline": "Regional Sales Head | MegaMart",
+   "role": "Regional Sales Head",
+   "org": "MegaMart",
+   "location": "Pune, India",
+   "summary": "Manages 20 retail stores, focused on sales targets, inventory and customer experience.",
+   "experience": [
+    "Opened 20 new stores",
+    "Reduced shrinkage by 12%"
+   ],
+   "archetype": "retail",
+   "gt": 0
+  },
+  {
+   "id": "P026",
+   "name": "Manish Joshi",
+   "url": "https://example.org/synthetic-test-profile/manish-joshi",
+   "headline": "Corporate Trainer | Skillset Corporate",
+   "role": "Corporate Trainer",
+   "org": "Skillset Corporate",
+   "location": "Hyderabad, India",
+   "summary": "Soft-skills and leadership workshops for corporate managers; management and sales training.",
+   "experience": [
+    "Designed onboarding programme",
+    "Trained 8 corporate managers"
+   ],
+   "archetype": "corp_trainer",
+   "gt": 0
+  },
+  {
+   "id": "P027",
+   "name": "Geeta Nair",
+   "url": "https://example.org/synthetic-test-profile/geeta-nair",
+   "headline": "Operations Manager | StyleHub",
+   "role": "Operations Manager",
+   "org": "StyleHub",
+   "location": "Chennai, India",
+   "summary": "Manages 25 retail stores, focused on sales targets, inventory and customer experience.",
+   "experience": [
+    "Opened 25 new stores",
+    "Reduced shrinkage by 12%"
+   ],
+   "archetype": "retail",
+   "gt": 0
+  },
+  {
+   "id": "P028",
+   "name": "Vikram Sharma",
+   "url": "https://example.org/synthetic-test-profile/vikram-sharma",
+   "headline": "Head of Academics, School Group | Gyan Education Group",
+   "role": "Head of Academics, School Group",
+   "org": "Gyan Education Group",
+   "location": "Hyderabad, India",
+   "summary": "8 years managing multi-campus school operations and principal development.",
+   "experience": [
+    "Managed 4 school campuses",
+    "Principal development programme lead"
+   ],
+   "archetype": "network",
+   "gt": 1
+  },
+  {
+   "id": "P029",
+   "name": "Lata Agarwal",
+   "url": "https://example.org/synthetic-test-profile/lata-agarwal",
+   "headline": "Software Engineer | TechNova",
+   "role": "Software Engineer",
+   "org": "TechNova",
+   "location": "Delhi NCR, India",
+   "summary": "Builds scalable APIs and data pipelines in Python and Go. 8 years in fintech and e-commerce.",
+   "experience": [
+    "Mentored junior engineers",
+    "Led migration to microservices"
+   ],
+   "archetype": "software",
+   "gt": 0
+  },
+  {
+   "id": "P030",
+   "name": "Pooja Khan",
+   "url": "https://example.org/synthetic-test-profile/pooja-khan",
+   "headline": "DevOps Engineer | CloudKart",
+   "role": "DevOps Engineer",
+   "org": "CloudKart",
+   "location": "Kolkata, India",
+   "summary": "Builds scalable APIs and data pipelines in Python and Go. 16 years in fintech and e-commerce.",
+   "experience": [
+    "Led migration to microservices",
+    "Mentored junior engineers"
+   ],
+   "archetype": "software",
+   "gt": 0
+  },
+  {
+   "id": "P031",
+   "name": "Ananya Joshi",
+   "url": "https://example.org/synthetic-test-profile/ananya-joshi",
+   "headline": "Digital Marketing Manager | BrandCraft",
+   "role": "Digital Marketing Manager",
+   "org": "BrandCraft",
+   "location": "Lucknow, India",
+   "summary": "Runs paid acquisition and SEO for D2C brands.",
+   "experience": [
+    "Scaled paid channels",
+    "Launched brand campaign"
+   ],
+   "archetype": "marketing",
+   "gt": 0
+  },
+  {
+   "id": "P032",
+   "name": "Meera Agarwal",
+   "url": "https://example.org/synthetic-test-profile/meera-agarwal",
+   "headline": "Independent Academic Advisor | Agarwal Education Advisory",
+   "role": "Independent Academic Advisor",
+   "org": "Agarwal Education Advisory",
+   "location": "Hyderabad, India",
+   "summary": "Advisor to school management teams on curriculum, accreditation and school audits. 16 years in school education.",
+   "experience": [
+    "Mentored first-time principals and school directors",
+    "Led academic audits for 15 schools"
+   ],
+   "archetype": "consultant",
+   "gt": 1
+  },
+  {
+   "id": "P033",
+   "name": "Aarav Verma",
+   "url": "https://example.org/synthetic-test-profile/aarav-verma",
+   "headline": "Technical Recruiter | PeopleFirst",
+   "role": "Technical Recruiter",
+   "org": "PeopleFirst",
+   "location": "Jaipur, India",
+   "summary": "Hires engineers and managers for IT companies; 27 years in talent acquisition.",
+   "experience": [
+    "Built employer brand",
+    "Hired 4 engineers"
+   ],
+   "archetype": "recruiter",
+   "gt": 0
+  },
+  {
+   "id": "P034",
+   "name": "Anjali Kapoor",
+   "url": "https://example.org/synthetic-test-profile/anjali-kapoor",
+   "headline": "English Teacher | City Public School",
+   "role": "English Teacher",
+   "org": "City Public School",
+   "location": "Mumbai, India",
+   "summary": "20 years teaching English to primary school students.",
+   "experience": [
+    "Class teacher",
+    "Organised school annual day"
+   ],
+   "archetype": "teacher",
+   "gt": 0
+  },
+  {
+   "id": "P035",
+   "name": "Aarav Das",
+   "url": "https://example.org/synthetic-test-profile/aarav-das",
+   "headline": "Digital Marketing Manager | AdWave",
+   "role": "Digital Marketing Manager",
+   "org": "AdWave",
+   "location": "Mumbai, India",
+   "summary": "Performance marketing and brand campaigns for consumer apps. 15 years in digital.",
+   "experience": [
+    "Launched brand campaign",
+    "Scaled paid channels"
+   ],
+   "archetype": "marketing",
+   "gt": 0
+  },
+  {
+   "id": "P036",
+   "name": "Sanjay Bhatt",
+   "url": "https://example.org/synthetic-test-profile/sanjay-bhatt",
+   "headline": "Education Consultant | Independent",
+   "role": "Education Consultant",
+   "org": "Independent",
+   "location": "Kolkata, India",
+   "summary": "Works with 30+ K-12 schools on academic quality, teacher training and affiliation readiness. Trusted by school owners and principals across states.",
+   "experience": [
+    "Mentored first-time principals and school directors",
+    "Former Vice Principal, CBSE school"
+   ],
+   "archetype": "consultant",
+   "gt": 1
+  },
+  {
+   "id": "P037",
+   "name": "Vikram Verma",
+   "url": "https://example.org/synthetic-test-profile/vikram-verma",
+   "headline": "Business Development Manager, Schools | Praxis Books",
+   "role": "Business Development Manager, Schools",
+   "org": "Praxis Books",
+   "location": "Kolkata, India",
+   "summary": "Builds partnerships with school groups and trustees; 9 years selling to K-12 school leadership.",
+   "experience": [
+    "Key accounts: school groups",
+    "Organised principal roundtables"
+   ],
+   "archetype": "connector",
+   "gt": 1
+  },
+  {
+   "id": "P038",
+   "name": "Priya Sharma",
+   "url": "https://example.org/synthetic-test-profile/priya-sharma",
+   "headline": "Independent Academic Advisor | Sharma Education Advisory",
+   "role": "Independent Academic Advisor",
+   "org": "Sharma Education Advisory",
+   "location": "Delhi NCR, India",
+   "summary": "Advisor to school management teams on curriculum, accreditation and school audits. 21 years in school education.",
+   "experience": [
+    "Led academic audits for 20 schools",
+    "Former Vice Principal, CBSE school"
+   ],
+   "archetype": "consultant",
+   "gt": 1
+  },
+  {
+   "id": "P039",
+   "name": "Vikram Chatterjee",
+   "url": "https://example.org/synthetic-test-profile/vikram-chatterjee",
+   "headline": "Talent Acquisition Lead | TalentBridge",
+   "role": "Talent Acquisition Lead",
+   "org": "TalentBridge",
+   "location": "Lucknow, India",
+   "summary": "Hires engineers and managers for IT companies; 9 years in talent acquisition.",
+   "experience": [
+    "Hired 12 engineers",
+    "Built employer brand"
+   ],
+   "archetype": "recruiter",
+   "gt": 0
+  },
+  {
+   "id": "P040",
+   "name": "Farah Rao",
+   "url": "https://example.org/synthetic-test-profile/farah-rao",
+   "headline": "Retail Store Manager | MegaMart",
+   "role": "Retail Store Manager",
+   "org": "MegaMart",
+   "location": "Delhi NCR, India",
+   "summary": "20 years in FMCG distribution and retail operations.",
+   "experience": [
+    "Opened 12 new stores",
+    "Reduced shrinkage by 12%"
+   ],
+   "archetype": "retail",
+   "gt": 0
+  },
+  {
+   "id": "P041",
+   "name": "Karan Banerjee",
+   "url": "https://example.org/synthetic-test-profile/karan-banerjee",
+   "headline": "Head of Academics, School Group | Gyan Education Group",
+   "role": "Head of Academics, School Group",
+   "org": "Gyan Education Group",
+   "location": "Bengaluru, India",
+   "summary": "Leads academics for a school group with 15 campuses; works with owners, trustees and principals on rollout.",
+   "experience": [
+    "Reported to group trustees",
+    "Managed 15 school campuses"
+   ],
+   "archetype": "network",
+   "gt": 1
+  },
+  {
+   "id": "P042",
+   "name": "Smita Khan",
+   "url": "https://example.org/synthetic-test-profile/smita-khan",
+   "headline": "Brand Strategist | BrandCraft",
+   "role": "Brand Strategist",
+   "org": "BrandCraft",
+   "location": "Chennai, India",
+   "summary": "Performance marketing and brand campaigns for consumer apps. 10 years in digital.",
+   "experience": [
+    "Scaled paid channels",
+    "Launched brand campaign"
+   ],
+   "archetype": "marketing",
+   "gt": 0
+  },
+  {
+   "id": "P043",
+   "name": "Divya Malhotra",
+   "url": "https://example.org/synthetic-test-profile/divya-malhotra",
+   "headline": "Founder & Chairman | Vidyalaya Ventures",
+   "role": "Founder & Chairman",
+   "org": "Vidyalaya Ventures",
+   "location": "Dubai, UAE",
+   "summary": "Education entrepreneur; launched and scaled 15 K-12 schools and an association of independent school owners.",
+   "experience": [
+    "Chair, association of private school owners",
+    "Founded 15 schools"
+   ],
+   "archetype": "entrepreneur",
+   "gt": 1
+  },
+  {
+   "id": "P044",
+   "name": "Vikram Singh",
+   "url": "https://example.org/synthetic-test-profile/vikram-singh",
+   "headline": "Software Engineer | TechNova",
+   "role": "Software Engineer",
+   "org": "TechNova",
+   "location": "Bengaluru, India",
+   "summary": "Machine learning engineer working on recommendation systems.",
+   "experience": [
+    "Led migration to microservices",
+    "Mentored junior engineers"
+   ],
+   "archetype": "software",
+   "gt": 0
+  },
+  {
+   "id": "P045",
+   "name": "Sanjay Iyer",
+   "url": "https://example.org/synthetic-test-profile/sanjay-iyer",
+   "headline": "Retired School Director | Retired",
+   "role": "Retired School Director",
+   "org": "Retired",
+   "location": "Lucknow, India",
+   "summary": "Former school director who built academic teams at 30 schools. Mentors principals and trustees.",
+   "experience": [
+    "Guest speaker at principals conferences",
+    "Principal, CBSE school, 27 years"
+   ],
+   "archetype": "ex_leader",
+   "gt": 1
+  },
+  {
+   "id": "P046",
+   "name": "Neha Agarwal",
+   "url": "https://example.org/synthetic-test-profile/neha-agarwal",
+   "headline": "COO, Schools | Gyan Education Group",
+   "role": "COO, Schools",
+   "org": "Gyan Education Group",
+   "location": "Jaipur, India",
+   "summary": "Leads academics for a school group with 4 campuses; works with owners, trustees and principals on rollout.",
+   "experience": [
+    "Reported to group trustees",
+    "Managed 4 school campuses"
+   ],
+   "archetype": "network",
+   "gt": 1
+  },
+  {
+   "id": "P047",
+   "name": "Priya Iyer",
+   "url": "https://example.org/synthetic-test-profile/priya-iyer",
+   "headline": "Ex-Head of School | Retired",
+   "role": "Ex-Head of School",
+   "org": "Retired",
+   "location": "Pune, India",
+   "summary": "Former school director who built academic teams at 8 schools. Mentors principals and trustees.",
+   "experience": [
+    "Board member, school education trust",
+    "Guest speaker at principals conferences"
+   ],
+   "archetype": "ex_leader",
+   "gt": 1
+  },
+  {
+   "id": "P048",
+   "name": "Pooja Gupta",
+   "url": "https://example.org/synthetic-test-profile/pooja-gupta",
+   "headline": "Retired School Director | Retired",
+   "role": "Retired School Director",
+   "org": "Retired",
+   "location": "Chennai, India",
+   "summary": "Former school director who built academic teams at 25 schools. Mentors principals and trustees.",
+   "experience": [
+    "Guest speaker at principals conferences",
+    "Board member, school education trust"
+   ],
+   "archetype": "ex_leader",
+   "gt": 1
+  },
+  {
+   "id": "P049",
+   "name": "Smita Reddy",
+   "url": "https://example.org/synthetic-test-profile/smita-reddy",
+   "headline": "Curriculum Consultant | Pragya Learning Partners",
+   "role": "Curriculum Consultant",
+   "org": "Pragya Learning Partners",
+   "location": "Jaipur, India",
+   "summary": "Works with 20+ K-12 schools on academic quality, teacher training and affiliation readiness. Trusted by school owners and principals across states.",
+   "experience": [
+    "Led academic audits for 20 schools",
+    "Former Vice Principal, CBSE school"
+   ],
+   "archetype": "consultant",
+   "gt": 1
+  },
+  {
+   "id": "P050",
+   "name": "Kavita Kapoor",
+   "url": "https://example.org/synthetic-test-profile/kavita-kapoor",
+   "headline": "Managing Trustee | Vidyalaya Ventures",
+   "role": "Managing Trustee",
+   "org": "Vidyalaya Ventures",
+   "location": "Delhi NCR, India",
+   "summary": "Managing trustee of a school trust running 15 schools; advises first-time school founders.",
+   "experience": [
+    "Founded 15 schools",
+    "Raised funding to expand school network"
+   ],
+   "archetype": "entrepreneur",
+   "gt": 1
+  },
+  {
+   "id": "P051",
+   "name": "Naveen Bhatt",
+   "url": "https://example.org/synthetic-test-profile/naveen-bhatt",
+   "headline": "Professor, Business School | Institute of Technology",
+   "role": "Professor, Business School",
+   "org": "Institute of Technology",
+   "location": "Dubai, UAE",
+   "summary": "Academic in law school focused on constitutional research and publications.",
+   "experience": [
+    "Published 8 papers",
+    "PhD supervisor"
+   ],
+   "archetype": "professor",
+   "gt": 0
+  },
+  {
+   "id": "P052",
+   "name": "Aarav Gupta",
+   "url": "https://example.org/synthetic-test-profile/aarav-gupta",
+   "headline": "Former Headmaster | Independent",
+   "role": "Former Headmaster",
+   "org": "Independent",
+   "location": "Bengaluru, India",
+   "summary": "Former school director who built academic teams at 6 schools. Mentors principals and trustees.",
+   "experience": [
+    "Board member, school education trust",
+    "Guest speaker at principals conferences"
+   ],
+   "archetype": "ex_leader",
+   "gt": 1
+  },
+  {
+   "id": "P053",
+   "name": "Arjun Mehta",
+   "url": "https://example.org/synthetic-test-profile/arjun-mehta",
+   "headline": "L&D Manager | Skillset Corporate",
+   "role": "L&D Manager",
+   "org": "Skillset Corporate",
+   "location": "Bengaluru, India",
+   "summary": "21 years in corporate learning and development at IT firms.",
+   "experience": [
+    "Designed onboarding programme",
+    "Trained 20 corporate managers"
+   ],
+   "archetype": "corp_trainer",
+   "gt": 0
+  },
+  {
+   "id": "P054",
+   "name": "Ananya Rao",
+   "url": "https://example.org/synthetic-test-profile/ananya-rao",
+   "headline": "Regional Manager, School Sales | Praxis Books",
+   "role": "Regional Manager, School Sales",
+   "org": "Praxis Books",
+   "location": "Hyderabad, India",
+   "summary": "Regional lead covering 4 schools; trusted contact for principals and school promoters.",
+   "experience": [
+    "Onboarded 4 schools",
+    "Organised principal roundtables"
+   ],
+   "archetype": "connector",
+   "gt": 1
+  },
+  {
+   "id": "P055",
+   "name": "Deepak Kulkarni",
+   "url": "https://example.org/synthetic-test-profile/deepak-kulkarni",
+   "headline": "L&D Manager | Skillset Corporate",
+   "role": "L&D Manager",
+   "org": "Skillset Corporate",
+   "location": "Delhi NCR, India",
+   "summary": "8 years in corporate learning and development at IT firms.",
+   "experience": [
+    "Trained 12 corporate managers",
+    "Designed onboarding programme"
+   ],
+   "archetype": "corp_trainer",
+   "gt": 0
+  },
+  {
+   "id": "P056",
+   "name": "Suresh Khan",
+   "url": "https://example.org/synthetic-test-profile/suresh-khan",
+   "headline": "Head of School Relations | Scholar Publishing",
+   "role": "Head of School Relations",
+   "org": "Scholar Publishing",
+   "location": "Lucknow, India",
+   "summary": "Works with principals, owners and management of 25+ schools on curriculum and technology adoption; strong relationships with school decision-makers.",
+   "experience": [
+    "Key accounts: school groups",
+    "Organised principal roundtables"
+   ],
+   "archetype": "connector",
+   "gt": 1
+  },
+  {
+   "id": "P057",
+   "name": "Suresh Pillai",
+   "url": "https://example.org/synthetic-test-profile/suresh-pillai",
+   "headline": "Retired School Director | Independent",
+   "role": "Retired School Director",
+   "org": "Independent",
+   "location": "Chennai, India",
+   "summary": "Served 13 years as principal of leading CBSE schools; now sits on school boards and advises management on leadership hiring.",
+   "experience": [
+    "Board member, school education trust",
+    "Principal, CBSE school, 13 years"
+   ],
+   "archetype": "ex_leader",
+   "gt": 1
+  },
+  {
+   "id": "P058",
+   "name": "Ananya Sharma",
+   "url": "https://example.org/synthetic-test-profile/ananya-sharma",
+   "headline": "Head of Academics, School Group | Orchid Learning Schools",
+   "role": "Head of Academics, School Group",
+   "org": "Orchid Learning Schools",
+   "location": "Bengaluru, India",
+   "summary": "Oversees a network of 12 schools, coordinating principals, academics and operations across regions.",
+   "experience": [
+    "Principal development programme lead",
+    "Managed 12 school campuses"
+   ],
+   "archetype": "network",
+   "gt": 1
+  },
+  {
+   "id": "P059",
+   "name": "Suresh Kulkarni",
+   "url": "https://example.org/synthetic-test-profile/suresh-kulkarni",
+   "headline": "Leadership Coach, Corporate | LeadWell",
+   "role": "Leadership Coach, Corporate",
+   "org": "LeadWell",
+   "location": "Mumbai, India",
+   "summary": "Soft-skills and leadership workshops for corporate managers; management and sales training.",
+   "experience": [
+    "Designed onboarding programme",
+    "Trained 6 corporate managers"
+   ],
+   "archetype": "corp_trainer",
+   "gt": 0
+  },
+  {
+   "id": "P060",
+   "name": "Vikram Rao",
+   "url": "https://example.org/synthetic-test-profile/vikram-rao",
+   "headline": "Professor, Business School | Rao Business School",
+   "role": "Professor, Business School",
+   "org": "Rao Business School",
+   "location": "Chennai, India",
+   "summary": "Academic in law school focused on constitutional research and publications.",
+   "experience": [
+    "Published 8 papers",
+    "PhD supervisor"
+   ],
+   "archetype": "professor",
+   "gt": 0
+  },
+  {
+   "id": "P061",
+   "name": "Nitin Rao",
+   "url": "https://example.org/synthetic-test-profile/nitin-rao",
+   "headline": "Mathematics Teacher | Government school",
+   "role": "Mathematics Teacher",
+   "org": "Government school",
+   "location": "Dubai, UAE",
+   "summary": "Teaches grade 8 mathematics at a school; enjoys classroom activities and student projects.",
+   "experience": [
+    "Class teacher",
+    "Organised school annual day"
+   ],
+   "archetype": "teacher",
+   "gt": 0
+  },
+  {
+   "id": "P062",
+   "name": "Manish Nair",
+   "url": "https://example.org/synthetic-test-profile/manish-nair",
+   "headline": "Ex-Head of School | Advisory board member, school trust",
+   "role": "Ex-Head of School",
+   "org": "Advisory board member, school trust",
+   "location": "Delhi NCR, India",
+   "summary": "Retired headmaster, 8 years in K-12. Advisor to school trusts and owners on governance and school improvement.",
+   "experience": [
+    "Principal, CBSE school, 8 years",
+    "Board member, school education trust"
+   ],
+   "archetype": "ex_leader",
+   "gt": 1
+  },
+  {
+   "id": "P063",
+   "name": "Nitin Verma",
+   "url": "https://example.org/synthetic-test-profile/nitin-verma",
+   "headline": "HR Business Partner | TalentBridge",
+   "role": "HR Business Partner",
+   "org": "TalentBridge",
+   "location": "Chennai, India",
+   "summary": "Hires engineers and managers for IT companies; 21 years in talent acquisition.",
+   "experience": [
+    "Hired 6 engineers",
+    "Built employer brand"
+   ],
+   "archetype": "recruiter",
+   "gt": 0
+  },
+  {
+   "id": "P064",
+   "name": "Nitin Mehta",
+   "url": "https://example.org/synthetic-test-profile/nitin-mehta",
+   "headline": "Regional Manager, School Sales | Gurukul Tech",
+   "role": "Regional Manager, School Sales",
+   "org": "Gurukul Tech",
+   "location": "Kolkata, India",
+   "summary": "Builds partnerships with school groups and trustees; 17 years selling to K-12 school leadership.",
+   "experience": [
+    "Onboarded 4 schools",
+    "Key accounts: school groups"
+   ],
+   "archetype": "connector",
+   "gt": 1
+  },
+  {
+   "id": "P065",
+   "name": "Naveen Sharma",
+   "url": "https://example.org/synthetic-test-profile/naveen-sharma",
+   "headline": "Data Scientist | Infrabyte",
+   "role": "Data Scientist",
+   "org": "Infrabyte",
+   "location": "Pune, India",
+   "summary": "Builds scalable APIs and data pipelines in Python and Go. 16 years in fintech and e-commerce.",
+   "experience": [
+    "Mentored junior engineers",
+    "Led migration to microservices"
+   ],
+   "archetype": "software",
+   "gt": 0
+  },
+  {
+   "id": "P066",
+   "name": "Aarav Rao",
+   "url": "https://example.org/synthetic-test-profile/aarav-rao",
+   "headline": "Founder & Chairman | Vidyalaya Ventures",
+   "role": "Founder & Chairman",
+   "org": "Vidyalaya Ventures",
+   "location": "Kolkata, India",
+   "summary": "Managing trustee of a school trust running 30 schools; advises first-time school founders.",
+   "experience": [
+    "Chair, association of private school owners",
+    "Founded 30 schools"
+   ],
+   "archetype": "entrepreneur",
+   "gt": 1
+  },
+  {
+   "id": "P067",
+   "name": "Arjun Bhatt",
+   "url": "https://example.org/synthetic-test-profile/arjun-bhatt",
+   "headline": "Education Partnerships Lead | Scholar Publishing",
+   "role": "Education Partnerships Lead",
+   "org": "Scholar Publishing",
+   "location": "Bengaluru, India",
+   "summary": "Works with principals, owners and management of 25+ schools on curriculum and technology adoption; strong relationships with school decision-makers.",
+   "experience": [
+    "Onboarded 25 schools",
+    "Key accounts: school groups"
+   ],
+   "archetype": "connector",
+   "gt": 1
+  },
+  {
+   "id": "P068",
+   "name": "Sunita Pillai",
+   "url": "https://example.org/synthetic-test-profile/sunita-pillai",
+   "headline": "Backend Developer | CloudKart",
+   "role": "Backend Developer",
+   "org": "CloudKart",
+   "location": "Kolkata, India",
+   "summary": "Machine learning engineer working on recommendation systems.",
+   "experience": [
+    "Mentored junior engineers",
+    "Led migration to microservices"
+   ],
+   "archetype": "software",
+   "gt": 0
+  },
+  {
+   "id": "P069",
+   "name": "Nitin Menon",
+   "url": "https://example.org/synthetic-test-profile/nitin-menon",
+   "headline": "Former Headmaster | Menon Education Society",
+   "role": "Former Headmaster",
+   "org": "Menon Education Society",
+   "location": "Jaipur, India",
+   "summary": "Retired headmaster, 15 years in K-12. Advisor to school trusts and owners on governance and school improvement.",
+   "experience": [
+    "Principal, CBSE school, 15 years",
+    "Board member, school education trust"
+   ],
+   "archetype": "ex_leader",
+   "gt": 1
+  },
+  {
+   "id": "P070",
+   "name": "Geeta Verma",
+   "url": "https://example.org/synthetic-test-profile/geeta-verma",
+   "headline": "COO, Schools | Vidya Group of Schools",
+   "role": "COO, Schools",
+   "org": "Vidya Group of Schools",
+   "location": "Lucknow, India",
+   "summary": "Leads academics for a school group with 12 campuses; works with owners, trustees and principals on rollout.",
+   "experience": [
+    "Reported to group trustees",
+    "Principal development programme lead"
+   ],
+   "archetype": "network",
+   "gt": 1
+  },
+  {
+   "id": "P071",
+   "name": "Harish Reddy",
+   "url": "https://example.org/synthetic-test-profile/harish-reddy",
+   "headline": "Co-founder, Schools | Reddy Education Trust",
+   "role": "Co-founder, Schools",
+   "org": "Reddy Education Trust",
+   "location": "Delhi NCR, India",
+   "summary": "Managing trustee of a school trust running 6 schools; advises first-time school founders.",
+   "experience": [
+    "Raised funding to expand school network",
+    "Chair, association of private school owners"
+   ],
+   "archetype": "entrepreneur",
+   "gt": 1
+  },
+  {
+   "id": "P072",
+   "name": "Geeta Malhotra",
+   "url": "https://example.org/synthetic-test-profile/geeta-malhotra",
+   "headline": "Head of School Relations | LearnSphere (EdTech)",
+   "role": "Head of School Relations",
+   "org": "LearnSphere (EdTech)",
+   "location": "Hyderabad, India",
+   "summary": "Builds partnerships with school groups and trustees; 10 years selling to K-12 school leadership.",
+   "experience": [
+    "Onboarded 4 schools",
+    "Key accounts: school groups"
+   ],
+   "archetype": "connector",
+   "gt": 1
+  },
+  {
+   "id": "P073",
+   "name": "Smita Sharma",
+   "url": "https://example.org/synthetic-test-profile/smita-sharma",
+   "headline": "Corporate Trainer | Skillset Corporate",
+   "role": "Corporate Trainer",
+   "org": "Skillset Corporate",
+   "location": "Lucknow, India",
+   "summary": "Soft-skills and leadership workshops for corporate managers; management and sales training.",
+   "experience": [
+    "Trained 20 corporate managers",
+    "Designed onboarding programme"
+   ],
+   "archetype": "corp_trainer",
+   "gt": 0
+  },
+  {
+   "id": "P074",
+   "name": "Rahul Joshi",
+   "url": "https://example.org/synthetic-test-profile/rahul-joshi",
+   "headline": "School Owner & Director | Vidyalaya Ventures",
+   "role": "School Owner & Director",
+   "org": "Vidyalaya Ventures",
+   "location": "Chennai, India",
+   "summary": "Education entrepreneur; launched and scaled 12 K-12 schools and an association of independent school owners.",
+   "experience": [
+    "Founded 12 schools",
+    "Chair, association of private school owners"
+   ],
+   "archetype": "entrepreneur",
+   "gt": 1
+  }
+ ]
+}
